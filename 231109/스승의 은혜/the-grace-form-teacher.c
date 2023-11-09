@@ -54,6 +54,9 @@ int main() {
         }
 
     }
+
+    if (max_student == INT_MIN) max_student = 0;
+
     printf("%d", max_student);
 
     return 0;
