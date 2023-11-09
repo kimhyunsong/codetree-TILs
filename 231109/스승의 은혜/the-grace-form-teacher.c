@@ -43,7 +43,7 @@ int main() {
                 }
             }
 
-
+            if (s_arr[i] > B) continue;
             price_sum += s_arr[j];
             if (i == j)
             {
