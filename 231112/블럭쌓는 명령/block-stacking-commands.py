@@ -9,8 +9,8 @@ def solve(N, K, commands):
             blocks[Bi + 1] -= 1
     for i in range(1, N + 1):
         blocks[i] += blocks[i - 1]
-    
-    mid_index = N // 2
+
+    mid_index = N // 2 + 1
     mid_value = sorted(blocks)[mid_index]
     print(mid_value)
 
